@@ -1,0 +1,141 @@
+body {
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto -30px auto;
+    color: #66BFBF
+    ;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+
+h3, .footer-link, .btn{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+}
+
+.hello-p{
+    color: #40514E;
+}
+.profile-img{
+    width: 10%;
+    border-radius: 4rem;
+}
+a {
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud{
+    position: relative;
+    left: 200px;
+}
+.bottom-cloud{
+    position: relative;
+    bottom: 300px;
+}
+
+.dotes-1{
+
+    border: 0.5rem  dotted;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    width: 50px;
+    color: #EAF6F6;
+    
+}
+
+.dotes-2{
+
+    border: 0.5rem  dotted;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    width: 50px;
+    color: #EAF6F6;
+    
+}
+
+.profession{
+    font-weight: normal;
+
+}
+
+.pro{
+    
+    text-decoration: underline;
+}
+.my-skills{
+  color:#66BFBF;
+}
+
+.skill-row {
+    margin: 100px auto ;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.first-img {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+.second-img{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.button{
+    margin-top:70px;
+    height: 200px;
+}
+
+a.btn{
+display: block;
+box-sizing: border-box;
+height: 50px;
+width: 180px;
+margin: auto auto;
+padding: 15px;
+border-radius: 10px;
+background-color: #11999E;
+color: white;
+text-decoration: none;;
+font-weight: 900;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    color: #11999E;
+    height: 200px;
+}
+
+.footer-link{
+    display: inline-block;
+    margin: 50px 20px;
+    text-decoration: none;
+}
+
+p.footer{
+    color: #EAF6F6;
+}
